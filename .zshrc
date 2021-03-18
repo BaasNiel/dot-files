@@ -25,7 +25,7 @@ function gploc {
   git pull origin "$(git-branch-current 2> /dev/null)"
 }
 
-# Open a MR to ComplyWorks repo
+# Open a MR to repo
 function glmr {
   echo Opening GitLab pull request for "$(git-branch-current 2> /dev/null)"
   repo=`git remote -v | ag "origin.+push" | sed "s/git@gitlab.com://" | sed "s,https://gitlab.com/,," | cut -c8-999 | s$
