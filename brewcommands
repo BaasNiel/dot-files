@@ -1,4 +1,4 @@
-brew install postman visual-studio-code google-chrome spotify firefox adobe-acrobat-reader keka ngrok mysql memcached termius wget
-brew install --cask skype docker slack tableplus iterm2 spectacle
+brew install postman visual-studio-code google-chrome spotify firefox adobe-acrobat-reader keka ngrok mysql memcached wget
+brew install --cask skype docker slack tableplus iterm2 spectacle termius
 brew services start mysql
 brew services start memcached
